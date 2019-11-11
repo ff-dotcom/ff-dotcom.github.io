@@ -141,9 +141,13 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>$:/config/RelinkOnRename</li>
+
 <li>$:/core</li>
 
 <li>$:/isEncrypted</li>
+
+<li>$:/state/tab/sidebar--595412856</li>
 
 <li>$:/StoryList</li>
 
@@ -153,7 +157,9 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
-<li>搜索引擎作业</li>
+<li>图书情报学概论</li>
+
+<li>Draft of 'GettingStarted'</li>
 
 </ul>
 </p>
@@ -165,6 +171,9 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
+<div created="20191111114355853" modified="20191111114357497" title="$:/config/RelinkOnRename">
+<pre>no</pre>
+</div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.21">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -9361,7 +9370,10 @@ Error message and password prompt
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20191103135728701" list="搜索引擎作业 GettingStarted" modified="20191103135745140" title="$:/StoryList">
+<div created="20191111114227947" modified="20191111114227947" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Recent</pre>
+</div>
+<div created="20191111114229563" list="图书情报学概论 [[Draft of 'GettingStarted']]" modified="20191111114229563" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9377,19 +9389,19 @@ Error message and password prompt
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///C:/Users/Administrator/Desktop/empty.html&quot;
+            &quot;text&quot;: &quot;https://ff-dotcom.github.io/ff-web/fangfang.html?nsukey=QDKcb8GLZ80hwuiNSr8PgqoMQ2dUNJEmsHuENUc2gqIFjCqp4faXQcNhRkr%2FQM1oYOOICorKN1nunE0gk6O7ZtX2fPt8gokKjudlSdxSFMGbNBtGhOyKAZgongnYV0f2V7jD%2B5TEvbjutqFCgoYYbg%3D%3D&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;ff-dotcom.github.io&quot;
         },
         &quot;$:/info/url/hostname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/hostname&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;ff-dotcom.github.io&quot;
         },
         &quot;$:/info/url/protocol&quot;: {
             &quot;title&quot;: &quot;$:/info/url/protocol&quot;,
-            &quot;text&quot;: &quot;file:&quot;
+            &quot;text&quot;: &quot;https:&quot;
         },
         &quot;$:/info/url/port&quot;: {
             &quot;title&quot;: &quot;$:/info/url/port&quot;,
@@ -9397,23 +9409,23 @@ Error message and password prompt
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/C:/Users/Administrator/Desktop/empty.html&quot;
+            &quot;text&quot;: &quot;/ff-web/fangfang.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;?nsukey=QDKcb8GLZ80hwuiNSr8PgqoMQ2dUNJEmsHuENUc2gqIFjCqp4faXQcNhRkr%2FQM1oYOOICorKN1nunE0gk6O7ZtX2fPt8gokKjudlSdxSFMGbNBtGhOyKAZgongnYV0f2V7jD%2B5TEvbjutqFCgoYYbg%3D%3D&quot;
         },
         &quot;$:/info/url/origin&quot;: {
             &quot;title&quot;: &quot;$:/info/url/origin&quot;,
-            &quot;text&quot;: &quot;file://&quot;
+            &quot;text&quot;: &quot;https://ff-dotcom.github.io&quot;
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;1366&quot;
+            &quot;text&quot;: &quot;1368&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;768&quot;
+            &quot;text&quot;: &quot;912&quot;
         },
         &quot;$:/info/browser/language&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/language&quot;,
@@ -9531,19 +9543,52 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20191103135404370" modified="20191103141812687" tags="" title="搜索引擎作业">
-<pre>*[[百度|https://www.baidu.com/]]
+<div created="20191111114634700" modified="20191111135320002" tags="" title="图书情报学概论">
+<pre>       搜索引擎：搜索引擎就是根据用户需求与一定算法，运用特定策略从互联网检索出制定信息反馈给用户的一门检索技术。从功能和原理上搜索引擎大致被分为全文搜索引擎、元搜索引擎、垂直搜索引擎和目录搜索引擎等四大类。
+       全文搜索引擎：全文搜索引擎就是通过从互联网上提取的各个网站的信息（以网页文字为主）而建立的数据库中，检索与用户查询条件匹配的相关记录，然后按一定的排列顺序将结果返回给用户。典型产品有百度、谷歌、雅虎、有道、搜狗等。
+       元搜索引擎：通过一个统一用户界面帮助用户在多个搜索引擎中选择和利用合适的（甚至是同时利用若干个）搜索引擎来实现检索操作，是对分布于网络的多种检索工具的全局控制机制。典型产品有360搜索引擎、觅搜、比比猫。
+       垂直搜索引擎：是根据特定用户的特定搜索请求，对网站（页）库中的某类专门信息进行深度挖掘与整合后，再以某种形式将结果返回用户。典型产品有商用搜索、极客搜索、术语搜索等。
+       目录搜索引擎：是以人工方式或半自动方式搜集信息，由编辑员产看信息之后，人工形成信息摘要，并将信息置于事先确定的分类框架中。信息大多面向网站，提供目录浏览服务和直接检索服务。典型产品有LookSmart、About、DMOZ等。
 
-[img[https://www.baidu.com/img/bd_logo1.png]]
-
-*[[谷歌|http://www.google.cn/]]
-
-[img[http://www.google.cn/landing/cnexp/google-search.png]]
-
-*[[360搜索|https://www.so.com/]]
-
+全文搜索引擎：
+*[[百度|https://www.baidu.com/]]
+*[[谷歌|www.google.cn/]]
 *[[雅虎|https://www.yahoo.com/]]
+*[[有道|http://fanyi.youdao.com/]]
+*[[搜狗|https://www.sogou.com/]]
 
+元搜索引擎：
+*[[360搜索|https://www.so.com/]]
+*[[比比猫|https://cn.bing.com/]]
+
+垂直搜索引擎：
+*[[商用搜索|https://handbook.jiqizhixin.com/]]
+*[[极客搜索|https://s.geekbang.org/]]
+*[[术语搜索|http://www.termonline.cn/index.htm]]
+
+目录搜索引擎：
+*[[LookSmart|https://www.looksmart.com/]]
+*[[DMOA|http://www.dmoztools.net/]]
+
+
+</pre>
+</div>
+<div draft.of="GettingStarted" draft.title="GettingStarted" modified="20191111114628003" title="Draft of 'GettingStarted'">
+<pre>\define lingo-base() $:/language/ControlPanel/Basics/
+Welcome to ~TiddlyWiki and the ~TiddlyWiki community
+
+Before you start storing important information in ~TiddlyWiki it is vital to make sure that you can reliably save changes. See https://tiddlywiki.com/#GettingStarted for details
+
+!! Set up this ~TiddlyWiki
+
+&lt;div class=&quot;tc-control-panel&quot;&gt;
+
+|&lt;$link to=&quot;$:/SiteTitle&quot;&gt;&lt;&lt;lingo Title/Prompt&gt;&gt;&lt;/$link&gt; |&lt;$edit-text tiddler=&quot;$:/SiteTitle&quot; default=&quot;&quot; tag=&quot;input&quot;/&gt; |
+|&lt;$link to=&quot;$:/SiteSubtitle&quot;&gt;&lt;&lt;lingo Subtitle/Prompt&gt;&gt;&lt;/$link&gt; |&lt;$edit-text tiddler=&quot;$:/SiteSubtitle&quot; default=&quot;&quot; tag=&quot;input&quot;/&gt; |
+|&lt;$link to=&quot;$:/DefaultTiddlers&quot;&gt;&lt;&lt;lingo DefaultTiddlers/Prompt&gt;&gt;&lt;/$link&gt; |&lt;&lt;lingo DefaultTiddlers/TopHint&gt;&gt;&lt;br&gt; &lt;$edit tag=&quot;textarea&quot; tiddler=&quot;$:/DefaultTiddlers&quot;/&gt;&lt;br&gt;//&lt;&lt;lingo DefaultTiddlers/BottomHint&gt;&gt;// |
+&lt;/div&gt;
+
+See the [[control panel|$:/ControlPanel]] for more options.
 </pre>
 </div>
 
